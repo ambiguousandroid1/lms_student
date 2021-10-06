@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lmsstudentkotlin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LmsStudentKotlin"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.Subjects" />
+        <activity android:name=".activity.NotesSelect" />
+        <activity android:name=".activity.Notes" />
+        <activity android:name=".activity.TimeTableClass" />
+        <activity android:name=".activity.TimeTable" />
+        <activity android:name=".activity.RecordedClass" />
+        <activity android:name=".activity.Recorded" />
+        <activity android:name=".activity.LiveClassSelect" />
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LiveClass" />
+        <activity android:name=".activity.Dashboard" />
+        <activity android:name=".activity.ChooseProfile" />
+        <activity android:name=".activity.Profile" />
+        <activity android:name=".activity.AssignmentClass" />
+        <activity android:name=".activity.Assignment" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
